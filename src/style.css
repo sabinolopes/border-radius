@@ -7,13 +7,15 @@ body {
   display: flex;
   justify-content: center;
   flex-direction: column;
-}
+  background-color: rgb(156 163 175);
+  }
 
 header {
   text-align: center;
   margin-top: 5%;
   font-size: 30pt;
   margin-bottom: 50px;
+  color: rgb(203 213 225);
 }
 
 #container {
@@ -35,6 +37,8 @@ header {
   border: 1px solid black;
   resize: none;
   padding: 9px 10px;
+  font-family: monospace;
+  font-size: 12pt;
 }
 
 input {
