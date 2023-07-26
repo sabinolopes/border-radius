@@ -20,7 +20,8 @@ const changeBorder = (value, border, borderText) => {
     if (existingText.match(regExp)) {
       textArea.value = existingText.replace(regExp, `${borderText}: ${value}px`);
     } else {
-      textArea.value = `${existingText.trim()}\n${borderText}: ${value}px`;
+      const newText= `${existingText.trim()}\n${borderText}: ${value}px`;
+      textArea.value = newText.trim();
     }
   } else {
     textArea.value = existingText.replace(regExp, '');
