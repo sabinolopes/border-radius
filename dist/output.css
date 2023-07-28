@@ -534,6 +534,112 @@ video {
   --tw-backdrop-sepia:  ;
 }
 
+.relative {
+  position: relative;
+}
+
+.m-auto {
+  margin: auto;
+}
+
+.mb-14 {
+  margin-bottom: 3.5rem;
+}
+
+.mt-28 {
+  margin-top: 7rem;
+}
+
+.flex {
+  display: flex;
+}
+
+.max-w-2xl {
+  max-width: 42rem;
+}
+
+.resize-none {
+  resize: none;
+}
+
+.flex-col {
+  flex-direction: column;
+}
+
+.justify-center {
+  justify-content: center;
+}
+
+.self-center {
+  align-self: center;
+}
+
+.border {
+  border-width: 1px;
+}
+
+.border-black {
+  --tw-border-opacity: 1;
+  border-color: rgb(0 0 0 / var(--tw-border-opacity));
+}
+
+.bg-gray-300 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(209 213 219 / var(--tw-bg-opacity));
+}
+
+.bg-gray-400 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(156 163 175 / var(--tw-bg-opacity));
+}
+
+.p-10 {
+  padding: 2.5rem;
+}
+
+.px-3 {
+  padding-left: 0.75rem;
+  padding-right: 0.75rem;
+}
+
+.px-60 {
+  padding-left: 15rem;
+  padding-right: 15rem;
+}
+
+.py-0 {
+  padding-top: 0px;
+  padding-bottom: 0px;
+}
+
+.py-3 {
+  padding-top: 0.75rem;
+  padding-bottom: 0.75rem;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.font-mono {
+  font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+}
+
+.text-5xl {
+  font-size: 3rem;
+  line-height: 1;
+}
+
+.text-base {
+  font-size: 1rem;
+  line-height: 1.5rem;
+}
+
+.text-slate-300 {
+  --tw-text-opacity: 1;
+  color: rgb(203 213 225 / var(--tw-text-opacity));
+}
+
 .container {
   width: 100%;
 }
@@ -570,49 +676,6 @@ video {
 
 .border {
   border-width: 1px;
-}
-
-* {
-  padding: 0;
-  margin: 0;
-}
-
-body {
-  display: flex;
-  justify-content: center;
-  flex-direction: column;
-  background-color: rgb(156 163 175);
-}
-
-header {
-  text-align: center;
-  margin-top: 5%;
-  font-size: 30pt;
-  margin-bottom: 50px;
-  color: rgb(203 213 225);
-}
-
-#container {
-  align-self: center;
-  position: relative;
-  width: auto;
-  padding: 0px 60px;
-}
-
-#surface {
-  margin: auto;
-  width: 650px;
-  background-color: #e9eaee;
-  padding: 40px;
-  text-align: center;
-}
-
-#text {
-  border: 1px solid black;
-  resize: none;
-  padding: 9px 10px;
-  font-family: monospace;
-  font-size: 12pt;
 }
 
 input {
